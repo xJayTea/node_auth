@@ -7,9 +7,16 @@
 
   <body>
     <div style="padding:20px;box-sizing:border-box;">
-      <div>Hello! You need to <a href="register">Register</a> or <a href="sign_in">Sign In</a>
+      <h1>Your Profile!</h1>
+
+      <h4>Full Name</h4> <span id="fullName" style="margin-left:15px;"></span>
+      <h4>Email</h4> <span id="email" style="margin-left:15px;"></span>
+
+      <div style="margin-top:10px;">
+        <a style="cursor:pointer" id="signOut">Sign Out</a>
+      </div>
     </div>
-    <script src="js/user_helper.js"></script>
-    <script src="js/check_signed_in.js"></script>
+    <script src="../js/user_helper.js"></script>
+    <script src="profile.js"></script>
   </body>
 </html>

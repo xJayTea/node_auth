@@ -2,6 +2,7 @@ var mongoose = require('mongoose');
 var gracefulShutdown;
 var dbURI = 'mongodb://localhost/Auth';
 
+mongoose.Promise = global.Promise;
 mongoose.connect(dbURI);
 
 // CAPTURE APP TERMINATION / RESTART EVENTS

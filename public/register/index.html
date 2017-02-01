@@ -7,9 +7,14 @@
 
   <body>
     <div style="padding:20px;box-sizing:border-box;">
-      <div>Hello! You need to <a href="register">Register</a> or <a href="sign_in">Sign In</a>
+      <div>Sign up below:</div>
+      <input type="text" placeholder="Name" id="name"/>
+      <input type="email" placeholder="Email" id="email"/>
+      <input type="password" placeholder="Password" id="password"/>
+      <button id="submit">Submit</button>
     </div>
-    <script src="js/user_helper.js"></script>
-    <script src="js/check_signed_in.js"></script>
+    <script src="../js/ajax_helper.js"></script>
+    <script src="../js/user_helper.js"></script>
+    <script src="register.js"></script>
   </body>
 </html>
